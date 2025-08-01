@@ -11,8 +11,9 @@
 <body>
     <div>
         <h2>QR Code dengan Logo di Tengah</h2>
-        
+        {{ $qrPath }}
         <img src="{{ $qrPath }}" alt="QR Code">
+        <img src="{{ asset($qrPath) }}" alt="QR Code">
     </div>
 </body>
 </html>

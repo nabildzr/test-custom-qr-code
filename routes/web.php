@@ -28,7 +28,7 @@ Route::get('/qr-code', function () {
         margin: 10,
         roundBlockSizeMode: RoundBlockSizeMode::Margin,
         logoPath: public_path('images/logo.png'),
-        logoResizeToWidth: 50,
+        logoResizeToWidth: 50,  
         logoPunchoutBackground: true,
         labelText: 'This is the label',
         labelFont: new OpenSans(20),
